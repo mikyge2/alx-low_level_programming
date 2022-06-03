@@ -14,9 +14,9 @@ int main(void)
 	/* your code goes there */
   
   if (n < 0)
-    printf("%n is negative", n);
+    printf("%n is negative", &n);
   else if (n == 0)
-    printf("%n is zero", n);
+    printf("%n is zero", &n);
   else if (n > 0)
     printf("%n is positive", &n);
   
